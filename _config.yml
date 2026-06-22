@@ -13,9 +13,9 @@ title                    : "Matthieu Joulot"
 title_separator          : "-"
 name                     : &name "Matthieu Joulot"
 description              : &description "PhD student in neuroimaging at Paris Brain Institute"
-url                      : https://matthieu-joulot.github.io
+url                      : https://MatthieuJoulot.github.io
 baseurl                  : ""
-repository               : "MatthieuJoulot/matthieu-joulot.github.io"
+repository               : "MatthieuJoulot/MatthieuJoulot.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
