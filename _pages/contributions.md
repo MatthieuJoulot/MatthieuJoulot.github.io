@@ -30,3 +30,13 @@ I contributed to the conceptual development of the Nipoppy platform, specificall
 ## Brainhack
 
 I have participated in the [OHBM Brainhack](https://brainhack.org/) in 2022, 2023, and 2026. During the 2022 edition I contributed to [Nilearn](https://nilearn.github.io/), a Python library for machine learning in neuroimaging. My participation in the 2023 edition is documented in the published proceedings ([DOI: 10.52294/001c.145051](https://doi.org/10.52294/001c.145051)). At the 2026 edition, I worked on integrating [Clinica](https://www.clinica.run/) pipelines into [Nipoppy](https://nipoppy.readthedocs.io/), with a specific focus on FreeSurfer longitudinal and SAMSEG longitudinal.
+
+---
+
+## Repositories
+
+### nipoppy_samseg_long
+
+[GitHub](https://github.com/MatthieuJoulot/nipoppy_samseg_long)
+
+[Nipoppy](https://nipoppy.readthedocs.io/) processing pipelines for **SAMSEG longitudinal** segmentation of brain MRI. The pipelines wrap FreeSurfer's `mri_robust_template` (which builds an unbiased within-subject template from a participant's T1w images across sessions) and `run_samseg_long` (longitudinal SAMSEG segmentation on template-space images) via [niwrap](https://niwrap.dev/). Sessions are discovered automatically from the BIDS tree and processing runs once per participant. Two workflow flavours are provided: a **one-shot** pipeline that runs both steps back-to-back, and a **two-shot** pipeline that separates template construction from segmentation, allowing inspection of templates before segmenting.
