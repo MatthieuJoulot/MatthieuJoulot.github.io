@@ -35,6 +35,6 @@ I have participated in the [OHBM Brainhack](https://brainhack.org/) in 2022, 202
 
 ## Repositories
 
-### [SAMSEG longitudinal for Nipoop](https://github.com/MatthieuJoulot/nipoppy_samseg_long)
+### [SAMSEG longitudinal for Nipoppy](https://github.com/MatthieuJoulot/nipoppy_samseg_long)
 
 Nipoppy processing pipelines for SAMSEG longitudinal segmentation of brain MRI. The pipelines wrap FreeSurfer's `mri_robust_template` (which builds an unbiased within-subject template from a participant's T1w images across sessions) and `run_samseg_long` (longitudinal SAMSEG segmentation on template-space images). A citable record is available on [Zenodo](https://zenodo.org/records/21469881).
