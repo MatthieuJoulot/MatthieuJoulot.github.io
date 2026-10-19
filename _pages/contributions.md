@@ -38,3 +38,11 @@ I have participated in the [OHBM Brainhack](https://brainhack.org/) in 2022, 202
 ### [SAMSEG longitudinal for Nipoppy](https://github.com/MatthieuJoulot/nipoppy_samseg_long)
 
 Nipoppy processing pipelines for SAMSEG longitudinal segmentation of brain MRI. The pipelines wrap FreeSurfer's `mri_robust_template` (which builds an unbiased within-subject template from a participant's T1w images across sessions) and `run_samseg_long` (longitudinal SAMSEG segmentation on template-space images). A citable record is available on [Zenodo](https://zenodo.org/records/21469881).
+
+### [Open Sports Analysis](https://github.com/MatthieuJoulot/open_sports_analysis)
+
+A local web application for analyzing sports activities recorded with
+Garmin devices (cycling, running, hiking) from a local GarminDB SQLite
+database. It detects, names and groups climbs, computes per-sport
+statistics and best efforts, and offers GPS heatmaps, 3D flyovers and
+training tracking. Python backend and JavaScript frontend, MIT licensed.
