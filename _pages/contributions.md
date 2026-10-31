@@ -53,4 +53,4 @@ training tracking. Python backend and JavaScript frontend, MIT licensed.
 
 ### [GPX Library Viewer](https://github.com/MatthieuJoulot/gpx-library-viewer)
 
-A browser application for browsing a library of GPX files on a map: every track is plotted in its own color and listed by collection, with distance, elevation gain and duration details, filters and keyless basemaps (OpenStreetMap, CyclOSM, Esri satellite). No backend, no uploads — parsing, filtering and rendering all happen in the browser. Built with TypeScript, Vite and MapLibre GL, MIT licensed.
+A minimal browser application for browsing a library of GPX files on a map. Tracks are grouped by collection, with filters and details such as distance, elevation gain and duration. MIT licensed.
