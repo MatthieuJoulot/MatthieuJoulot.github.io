@@ -51,6 +51,13 @@ database. It detects, names and groups climbs, computes per-sport
 statistics and best efforts, and offers GPS heatmaps, 3D flyovers and
 training tracking. Python backend and JavaScript frontend, MIT licensed.
 
+### [Open Ascent List](https://github.com/MatthieuJoulot/open-ascent-list)
+
+An open database of road-cycling ascents: for each summit or pass, the
+roads that climb to it, from the foot to the top. Distributed as GeoJSON
+under the ODbL licence and open to contributions. It powers the climb
+list of [Open Sports Analysis](https://github.com/MatthieuJoulot/open_sports_analysis).
+
 ### [GPX Library Viewer](https://github.com/MatthieuJoulot/gpx-library-viewer)
 
 A minimal browser application for browsing a library of GPX files on a map. Tracks are grouped by collection, with filters and details such as distance, elevation gain and duration. MIT licensed.
